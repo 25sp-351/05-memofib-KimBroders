@@ -1,3 +1,8 @@
+Test for factorial of 0:
+    input: 0
+    expected output:
+        factorial of 0 is 1
+
 Test for factorial of 1:
     input: 1
     expected output:
@@ -23,12 +28,13 @@ Test for factorial of 10:
     expected output:
         factorial of 10 is 3628800
 
-Test for factorial of 25:
-    input: 25
+Test for factorial of 20:
+    input: 20
     expected output:
-        factorial of 25 is 15511210043330985984000000
+        factorial of 20 is 2432902008176640000
 
-Test for factorial of 31:
-    input: 31
+Test for factorial of 21:
+    input: 21
     expected output:
-        factorial of 31 is 8222838654177922817725562879999969
+        Valid input: 21, but inaccurate results.
+        The factorial of 21 is too large for unsigned long long!
